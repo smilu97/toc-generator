@@ -1,0 +1,23 @@
+{
+  "name": "toc-generator",
+  "version": "1.0.0",
+  "description": "toc generator",
+  "repository": "https://github.com/smilu97/toc-generator",
+  "author": "smilu97",
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-optimize --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.4.1",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  }
+}

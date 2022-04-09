@@ -1,0 +1,20 @@
+* {
+    font-size: 16px;
+}
+
+#root {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#ta-wrapper {
+    display: flex;
+    align-items: center;
+    width: calc(100vw - 1rem);
+
+    textarea {
+        margin: 0.5rem;
+    min-height: 20rem;
+    flex-grow: 1;
+    }
+}
